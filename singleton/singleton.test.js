@@ -1,8 +1,20 @@
-const { it, expect } = require("@jest/globals");
+const { it, expect, describe } = require("@jest/globals");
 const Counter = require("./singleton");
 
-describe("singleton pattern test", () => {
+describe("Singleton pattern test", () => {
   let counterInstance = new Counter();
+
+  it("should throw error while creating instance", () => {
+    expect(() => {
+      counterInstance = new Counter();
+    }).toThrow(Error);
+  });
+
+  it("should throw a correct error message while creating instance", () => {
+    expect(() => {
+      counterInstance = new Counter();
+    }).toThrow("You can instantiate this class only once ...!");
+  });
 
   it("should return current counter with value of 0", () => {
     expect(counterInstance.counter).toBe(0);
