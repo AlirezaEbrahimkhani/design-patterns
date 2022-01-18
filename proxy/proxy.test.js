@@ -1,9 +1,5 @@
 const { it, expect, describe } = require("@jest/globals");
-const {
-  Student,
-  withReflectStudent,
-  withoutReflectStudent,
-} = require("./proxy");
+import { Student, withReflectStudent, withoutReflectStudent } from "./proxy";
 
 describe("Proxy pattern test", () => {
   it("should has property (student obj)", () => {

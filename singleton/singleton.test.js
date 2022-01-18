@@ -1,5 +1,5 @@
 const { it, expect, describe } = require("@jest/globals");
-const Counter = require("./singleton");
+import { Counter } from "./singleton";
 
 describe("Singleton pattern test", () => {
   let counterInstance = new Counter();
