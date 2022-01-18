@@ -16,6 +16,7 @@ const withoutReflectStudent = new Proxy(Student, {
       throw new TypeError("Type of values is not the same.");
     }
     obj[prop] = value;
+    return true;
   },
 });
 
@@ -30,7 +31,8 @@ const withReflectStudent = new Proxy(Student, {
       throw new TypeError("Type of values is not the same.");
     }
     Reflect.set(obj, prop, value);
+    return true;
   },
 });
 
-module.exports = { Student, withReflectStudent, withoutReflectStudent };
+export { Student, withoutReflectStudent, withReflectStudent };
