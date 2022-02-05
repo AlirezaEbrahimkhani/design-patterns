@@ -30,12 +30,3 @@ describe("factory pattern", () => {
     }).toThrow("Invalid type");
   });
 });
-
-// const developers = [];
-
-// developers.push(DeveloperFactory.create("A", 3, "front"));
-// developers.push(DeveloperFactory.create("B", 12, "front"));
-// developers.push(DeveloperFactory.create("C", 1, "back"));
-// developers.push(DeveloperFactory.create("D", 5, "front"));
-// developers.push(DeveloperFactory.create("E", 9, "back"));
-// developers.push(DeveloperFactory.create("F", 7, "back"));
