@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const pages_1 = require("./pages");
+const themes_1 = require("./themes");
+const lightTheme = new themes_1.LightTheme();
+const darkTheme = new themes_1.DarkTheme();
+const aboutPage = new pages_1.AboutPage(lightTheme);
+const homePage = new pages_1.HomePage(darkTheme);
+console.log(aboutPage.title());
+console.log(aboutPage.body());
+console.log(homePage.title());
+console.log(homePage.body());
