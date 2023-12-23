@@ -1,5 +1,3 @@
-# Famous design patterns in javascript
+# Design patterns in Typescript
 
-Implementation of famous design patterns with javascript
-
-For run tests and see the result: `npm run test`
+Implementation of design patterns with Typescript

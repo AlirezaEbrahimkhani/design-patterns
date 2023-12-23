@@ -1,5 +1,5 @@
 {
-  "name": "design-patterns-javascript",
+  "name": "design-patterns",
   "version": "1.0.0",
   "description": "Implementation of famous design patterns with javascript",
   "main": "index.js",
@@ -8,20 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlirezaEbrahimkhani/design-patterns-javascript.git"
+    "url": "git+https://github.com/AlirezaEbrahimkhani/design-patterns.git"
   },
-  "homepage": "https://github.com/AlirezaEbrahimkhani/design-patterns-javascript",
+  "homepage": "https://github.com/AlirezaEbrahimkhani/design-patterns",
   "bugs": {
-    "url": "https://github.com/AlirezaEbrahimkhani/design-patterns-javascript/issues"
+    "url": "https://github.com/AlirezaEbrahimkhani/design-patterns/issues"
   },
   "author": "Alireza Ebrahimkhani",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.16.8",
-    "@babel/core": "^7.16.7",
-    "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.8",
-    "babel-jest": "^27.4.6",
-    "jest": "^27.4.7"
+    "typescript": "^5.3.3"
   }
 }
